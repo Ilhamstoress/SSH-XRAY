@@ -21,13 +21,13 @@ Port_OHP='8787';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/LawVPN/SSH-XRAY/main/data/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/rizkyckj/SSH-XRAY/main/data/ohp"
 chmod +x /usr/local/bin/ohp
 
 #Buat File OpenVPN TCP OHP
 cat > /etc/openvpn/client-tcp-ohp1194.ovpn <<END
 ############## WELCOME ###############
-############# By LawNET ##############
+############# BY RVPN PREMIUM ##############
 client
 dev tun
 proto tcp
