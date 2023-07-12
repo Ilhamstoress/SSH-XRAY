@@ -16,7 +16,7 @@ cd
 rm -rf /usr/bin/menu-ssh
 echo "\e[1;32m Update Menu.. \e[0m"
 sleep 1
-wget -q -O /usr/bin/menu-ssh https://raw.githubusercontent.com/rizkyckj/AutoScriptXray/main/udp-custom/data/menu-ssh.sh
+wget -q -O /usr/bin/menu-ssh https://raw.githubusercontent.com/https://Ilhamstoress/SSH-XRAY/main/udp-custom/data/menu-ssh.sh
 sleep 1
 chmod +x /usr/bin/menu-ssh
 rm -rf /root/udp
