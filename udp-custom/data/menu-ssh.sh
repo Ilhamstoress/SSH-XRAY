@@ -63,7 +63,7 @@ echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
 menu-ssh
 fi
-read -p "   Expired (hari): " masaaktif
+read -p "   Expired (hari): " 30
 if [ -z $masaaktif ]; then
 echo -e "$COLOR1 ${NC}  [Error] EXP Date cannot be empty "
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
