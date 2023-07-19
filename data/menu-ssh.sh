@@ -150,7 +150,8 @@ echo -e "${WH}Upgrade: websocket[crlf][crlf]${NC}" | tee -a /etc/log-create-user
 echo -e "$COLOR1=====================================${NC}"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1======================================${NC}" | tee -a /etc/log-create-user.log
 echo -e "${WH}GET / HTTP/1.1[crlf]${NC}" | tee -a /etc/log-create-user.log
-echo -e "${WH}Host: $domen [crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]${NC}" | tee -a /etc/log-create-user.log
+echo -e "${WH}Host: $domen ${NC}" | tee -a /etc/log-create-user.log
+echo -e "${WH}Upgrade: websocket[crlf][crlf]${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1======================================${NC}"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1==========================================${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1 ${NC}     ${WH}• IlhamStore •${NC}       $COLOR1 $NC" | tee -a /etc/log-create-user.log
