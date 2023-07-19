@@ -141,8 +141,8 @@ echo -e "$COLOR1 $NC${WH}SSH-WS     ${COLOR1}: ${WH}$portsshws"  | tee -a /etc/l
 echo -e "$COLOR1 $NC${WH}SSH-SSL-WS ${COLOR1}: ${WH}$wsssl"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1 $NC${WH}SSL/TLS    ${COLOR1}:${WH}$ssl"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1 $NC${WH}UDPGW      ${COLOR1}: ${WH}7100-7300"  | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 ${NC}${WH}UDP Custom ${COLOR1}: ${WH}1-65535" | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 ${NC}${WH}SET UDP SSH ${COLOR1}: ${WH} $domen:1-65535@$Login:$Pass" | tee -a /etc/log-create-user.log
+echo -e "$COLOR1 ${NC}${WH}UDP Custom ${COLOR1}: ${WH}1111-1000" | tee -a /etc/log-create-user.log
+echo -e "$COLOR1 ${NC}${WH}SET UDP SSH ${COLOR1}: ${WH} $domen:1111-1000@$Login:$Pass" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1========================================${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1==========================================${NC}" | tee -a /etc/log-create-user.log
 echo -e "${WH}GET http://bug.com HTTP/1.1${NC}" | tee -a /etc/log-create-user.log
