@@ -272,7 +272,7 @@ sleep 1
 
 # banner /etc/issue.net
 echo -e "[ ${green}INFO$NC ] Settings banner"
-wget -q -O /etc/issue.net "https://raw.githubusercontent.com/LawVPN/SSH-XRAY/main/data/issue.net"
+wget -q -O /etc/issue.net "https://raw.githubusercontent.com/Ilhamstoress/SSH-XRAY/main/data/issue.net"
 chmod +x /etc/issue.net
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
