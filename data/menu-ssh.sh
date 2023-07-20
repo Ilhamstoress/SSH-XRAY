@@ -582,7 +582,7 @@ echo -e " $COLOR1┌────────────────────
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌───────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
 echo -e "$COLOR1 ${NC}                   ${WH}• Ilhamstoress •${NC}                 $COLOR1 $NC"
-echo -e "$COLOR1└────────────────────────────────────────────────────────────────┘${NC}"
+echo -e "$COLOR1└────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " ${WH}Select menu ${COLOR1}: ${WH}"; read opt
 case $opt in
