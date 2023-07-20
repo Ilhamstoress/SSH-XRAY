@@ -147,6 +147,12 @@ blue
 EOF
 ############# LawNET #############
 
+#install SLOW DNS
+echo -e "${tyblue}.------------------------------------------.${NC}"
+echo -e "${tyblue}|     PROCESS INSTALLED SSH & OPENVPN      |${NC}"
+echo -e "${tyblue}'------------------------------------------'${NC}"
+sleep 2
+wget https://raw.githubusercontent.com/givpn/AutoScriptXray/master/udp-custom/slowdns/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 #install ssh ovpn
 echo -e "${tyblue}.------------------------------------------.${NC}"
 echo -e "${tyblue}|     PROCESS INSTALLED SSH & OPENVPN      |${NC}"
