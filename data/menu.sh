@@ -193,7 +193,7 @@ fi
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐$NC"
 echo -e "$COLOR1 $NC ${WH}Version     ${COLOR1}:${WH} $(cat /opt/.ver) $ltsver${NC}"
 echo -e "$COLOR1 $NC ${WH}Client Name ${COLOR1}: ${WH}resseller${NC}"
-echo -e "$COLOR1 $NC ${WH}Exp Sc     ${COLOR1}: ${WH}20-08-2023${NC}"
+echo -e "$COLOR1 $NC ${WH}Exp Sc      ${COLOR1}: ${WH}20-08-2023${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘$NC"
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
 echo -e "$COLOR1 ${NC}                 ${WH}• IlhamStore •${NC}                 $COLOR1 $NC"
