@@ -562,7 +562,7 @@ echo -e "$COLOR1 ${NC}  ${WH}GET http://bug.com HTTP/1.1[crlf]Host: $domen [crlf
 echo -e "$COLOR1====================${NC}" 
 echo -e "$COLOR1=========${WH}BY${NC} ${COLOR1}=========${NC}"
 echo -e "$COLOR1 ${NC}          ${WH}• Trial doang beli kaga •${NC}                 $COLOR1 $NC"
-echo -e "$COLOR1=========================================${NC}"
+echo -e "$COLOR1====================${NC}"
 fi
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
