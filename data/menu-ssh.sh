@@ -129,12 +129,12 @@ echo -e "$COLOR1 ${NC}      ${WH}• IlhamStore •${NC}   $COLOR1 $NC" | tee -a
 echo -e "$COLOR1└────────────────────────────────┘${NC}" | tee -a /etc/log-create-user.log
 else
 echo -e "$COLOR1◇━━━━━━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 ${NC}   ${COLBG1}${WH}• SSH PANEL MENU •${NC} $COLOR1 $NC" | tee -a /etc/log-create-user.log
+echo -e "$COLOR1 ${NC}   ${COLBG1}${WH}{ SSH PANEL MENU }${NC} $COLOR1 $NC" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1◇━━━━━━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1◇━━━━━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 $NC${WH}🛡️Username   ${COLOR1}: ${WH}$Login"  | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 $NC${WH}🛡️Password   ${COLOR1}: ${WH}$Pass" | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 $NC${WH}🛡️Expired On ${COLOR1}: ${WH}$exp"  | tee -a /etc/log-create-user.log
+echo -e "$COLOR1 $NC${WH}🔥Username   ${COLOR1}: ${WH}$Login"  | tee -a /etc/log-create-user.log
+echo -e "$COLOR1 $NC${WH}🔥Password   ${COLOR1}: ${WH}$Pass" | tee -a /etc/log-create-user.log
+echo -e "$COLOR1 $NC${WH}🔥Expired On ${COLOR1}: ${WH}$exp"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1◇━━━━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1◇━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1 $NC${WH}🔰IP         ${COLOR1}: ${WH}$IP"  | tee -a /etc/log-create-user.log
@@ -541,9 +541,9 @@ echo -e "$COLOR1┌────────────────────�
 echo -e "$COLOR1 ${NC} ${COLBG1}            ${WH}• SSH TRIAL ACCOUNT •              ${NC} $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1 $NC  ${WH}Username   ${COLOR1}: ${WH}$Login" 
-echo -e "$COLOR1 $NC  ${WH}Password   ${COLOR1}: ${WH}$Pass"
-echo -e "$COLOR1 $NC  ${WH}Expired On ${COLOR1}: ${WH}$exp" 
+echo -e "$COLOR1 $NC  ${WH}💎Username   ${COLOR1}: ${WH}$Login" 
+echo -e "$COLOR1 $NC  ${WH}💎Password   ${COLOR1}: ${WH}$Pass"
+echo -e "$COLOR1 $NC  ${WH}💎Expired On ${COLOR1}: ${WH}$exp" 
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1 $NC  ${WH}IP         ${COLOR1}: ${WH}$IP" 
@@ -555,13 +555,13 @@ echo -e "$COLOR1 $NC  ${WH}SSH-SSL-WS ${COLOR1}: ${WH}$wsssl"
 echo -e "$COLOR1 $NC  ${WH}SSL/TLS    ${COLOR1}:${WH}$ssl" 
 echo -e "$COLOR1 $NC  ${WH}UDPGW      ${COLOR1}: ${WH}7100-7300" 
 echo -e "$COLOR1 $NC  ${WH}UDP Custom ${COLOR1}: ${WH}1-65350" 
-echo -e "$COLOR1 $NC  ${WH}UDP Custom ${COLOR1}: ${WH}$domen:1-65350@$Login:$Pass"  
+echo -e "$COLOR1 $NC  ${WH}SSH UDP    ${COLOR1}: ${WH}$domen:1-65350@$Login:$Pass"  
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1 ${NC}  ${WH}GET http://bug.com HTTP/1.1[crlf]Host: $domen [crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]Connection: Keep-Alive[crlf][crlf]${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── ${WH}BY${NC} ${COLOR1}───────────────────────┐${NC}"
-echo -e "$COLOR1 ${NC}                 ${WH}• Ilhamstoress •${NC}                 $COLOR1 $NC"
+echo -e "$COLOR1 ${NC}                 ${WH}• Trial doang beli kaga •${NC}                 $COLOR1 $NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 fi
 echo ""
