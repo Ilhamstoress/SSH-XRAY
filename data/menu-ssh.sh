@@ -146,7 +146,6 @@ echo -e "$COLOR1 $NC${WH}🔰SSH-SSL-WS ${COLOR1}: ${WH}$wsssl"  | tee -a /etc/l
 echo -e "$COLOR1 $NC${WH}🔰SSL/TLS    ${COLOR1}:${WH}$ssl"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1 $NC${WH}🔰UDPGW      ${COLOR1}: ${WH}7100-7300"  | tee -a /etc/log-create-user.log
 echo -e "$COLOR1 ${NC}${WH}🔰UDP Custom ${COLOR1}: ${WH}1111-1000" | tee -a /etc/log-create-user.log
-echo -e "$COLOR1 ${NC}${WH}🔰SSH UDP ${COLOR1}: ${WH}$domen:1111-1000@$Login:$Pass" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1◇━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
 echo -e "$COLOR1◇━━━━━━━━━━━━━━━━━◇${NC}" | tee -a /etc/log-create-user.log
 echo -e "${WH}GET http://bug.com HTTP/1.1${NC}" | tee -a /etc/log-create-user.log
@@ -541,9 +540,9 @@ echo -e "$COLOR1=============================${NC}"
 echo -e "$COLOR1 ${NC} ${COLBG1}            ${WH}• SSH TRIAL ACCOUNT •              ${NC} $COLOR1 $NC"
 echo -e "$COLOR1=============================${NC}"
 echo -e "$COLOR1===================${NC}"
-echo -e "$COLOR1 $NC  ${WH}💎Username   ${COLOR1}: ${WH}$Login" 
-echo -e "$COLOR1 $NC  ${WH}💎Password   ${COLOR1}: ${WH}$Pass"
-echo -e "$COLOR1 $NC  ${WH}💎Expired On ${COLOR1}: ${WH}$exp" 
+echo -e "$COLOR1 $NC  ${WH}Username   ${COLOR1}: ${WH}$Login" 
+echo -e "$COLOR1 $NC  ${WH}Password   ${COLOR1}: ${WH}$Pass"
+echo -e "$COLOR1 $NC  ${WH}Expired On ${COLOR1}: ${WH}$exp" 
 echo -e "$COLOR1===================${NC}"
 echo -e "$COLOR1=============${NC}"
 echo -e "$COLOR1 $NC  ${WH}IP         ${COLOR1}: ${WH}$IP" 
